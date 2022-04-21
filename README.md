@@ -11,10 +11,10 @@ and its resulting value.
 
 ### Asynchronous functions
 
-Instead of creating a promise chain - ```promise.then(success).catch(error)``` -
-you can handle a promise by implementing an ```async``` function. In some sense,
-async/await is 'just' syntatic sugar for creating and consuming promises, and
-yet it completely transforms how you write your asynchronous code.
+The magic of ```async``` functions is that we can write asynchronous code that
+looks like synchronous code. It's still asynchronous code but instead of
+results and errors landing inside callback functions, errors are thrown
+naturally as exceptions and results naturally land on the next line of code. 
 
 The key features of ```async``` functions are:
 
