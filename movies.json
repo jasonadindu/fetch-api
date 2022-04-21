@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "id": 1001,
+      "title": "Eternals",
+      "year": 2021,
+      "time": "2h 37m",
+      "img": "eternals.jpg"
+    },
+    {
+      "id": 1002,
+      "title": "Fast and furious 9",
+      "year": 2021,
+      "time": "2h 25m",
+      "img": "fast_9.jpg"
+    },
+    {
+      "id": 1003,
+      "title": "JFK",
+      "year": 1991,
+      "time": "3h 26m",
+      "img": "jfk.jpg"
+    },
+    {
+      "id": 1004,
+      "title": "No time to die",
+      "year": 2021,
+      "time": "2h 43m",
+      "img": "no_time_to_die.jpg"
+    },
+    {
+      "id": 1005,
+      "title": "Matrix ressurrections",
+      "year": 2021,
+      "time": "2h 43m",
+      "img": "matrix_ressurrections.jpg"
+    },
+    {
+      "id": 1006,
+      "title": "Shang_Chi",
+      "year": 2021,
+      "time": "2h 12m",
+      "img": "shang_chi.jpg"
+    },
+    {
+      "id": 1007,
+      "title": "Spider_man: no way home",
+      "year": 2021,
+      "time": "2h 30m",
+      "img": "spider_man.jpg"
+    },
+    {
+      "id": 1008,
+      "title": "Venom 2",
+      "year": 2021,
+      "time": "1h 37m",
+      "img": "venom_2.jpg"
+    },
+    {
+      "id": 1009,
+      "title": "Terminator 2",
+      "year": 1991,
+      "time": "2h 17m",
+      "img": "terminator_2.jpg"
+    },
+    {
+      "id": 1010,
+      "title": "The Batman",
+      "year": 2022,
+      "time": "2h 59m",
+      "img": "the_batman.jpg"
+    },
+    {
+      "id": 1011,
+      "title": "The exorcist",
+      "year": 1973,
+      "time": "2h 20m",
+      "img": "the_exorcist.jpg"
+    },
+    {
+      "id": 1012,
+      "title": "West side story",
+      "year": 2021,
+      "time": "2h 36m",
+      "img": "west_side_story.jpg"
+    }
+  ]
+}
