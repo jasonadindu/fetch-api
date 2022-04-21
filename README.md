@@ -76,5 +76,4 @@ getMovies();
 - [Intro to promises](https://web.dev/promises/)
 - [What is an API?](https://www.youtube.com/watch?v=s7wmiS2mSXY)
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [Async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
