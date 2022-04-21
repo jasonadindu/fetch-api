@@ -30,8 +30,8 @@ The key features of ```async``` functions are:
 
 ### Fetch API in action
 
-The simplest use of ```fetch()``` takes one argument — the path to the resource
-you want to fetch — and does not directly return the JSON response body but
+The simplest use of ```fetch()``` takes one argument - the path to the resource
+you want to fetch - and does not directly return the JSON response body but
 instead returns a ```Promise``` that resolves with a ```Response``` object.
 
 The ```Response``` object, in turn, does not directly contain the actual JSON
