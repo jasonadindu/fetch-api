@@ -26,6 +26,16 @@ The key features of ```async``` functions are:
   promise, you see the promise's fulfillment value as the result of the ```await```
   expression).
 
+### CORS
+
+Cross-Origin Resource Sharing (CORS) is a protocol that enables scripts running
+on a browser client to interact with resources from a different origin. This is
+useful because, thanks to the same-origin policy followed ```fetch```,
+JavaScript can only make calls to URLs that live on the same origin as the
+location where the script is running. For example, if a JavaScript app wishes
+to make an AJAX call to an API running on a different domain, it would be
+blocked from doing so thanks to the same-origin policy.
+
 ### Fetch API in action
 
 The simplest use of ```fetch()``` takes one argument - the path to the resource
@@ -45,10 +55,11 @@ const options = {
   method: 'GET',
   headers: {
     Accept: 'application/vnd.github.v3+json'
-  }
+  },
+  mode: 'cors'
 };
 
-const getMovies = async () => {
+async function getMovies() {
   try {
     const response = await fetch(url, options);
     if (!response.ok) {
@@ -69,9 +80,10 @@ getMovies();
 - GitHub: https&#8203;://raw.githubusercontent.com/[profile]/[repo]/[branch]/[file]
 - GitLab: https&#8203;://gitlab.com/api/v4/projects/[repo_id]/repository/files/[file%2Eextension]/raw
 
-### Useful links
+### References
 
-- [Intro to promises](https://web.dev/promises/)
-- [What is an API?](https://www.youtube.com/watch?v=s7wmiS2mSXY)
+- [JavaScript cookbook](https://www.oreilly.com/library/view/javascript-cookbook-3rd/9781492055747/)
+- [JavaScript: the new toys](https://www.wiley.com/en-us/JavaScript:+The+New+Toys-p-9781119367963)
+- [Professional JavaScript for web developers](https://www.wiley.com/en-us/Professional+JavaScript+for+Web+Developers%2C+4th+Edition-p-9781119366447)
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [Async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
