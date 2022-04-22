@@ -69,7 +69,7 @@ getMovies();
 
 Cross-Origin Resource Sharing (CORS) is a protocol that enables scripts running
 on a browser client to interact with resources from a different origin. This is
-useful because, thanks to the same-origin policy followed ```fetch```,
+useful because, thanks to the same-origin policy followed by ```fetch```,
 JavaScript can only make calls to URLs that live on the same origin as the
 location where the script is running. For example, if a JavaScript app wishes
 to make an AJAX call to an API running on a different domain, it would be
