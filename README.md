@@ -26,16 +26,6 @@ The key features of ```async``` functions are:
   promise, you see the promise's fulfillment value as the result of the ```await```
   expression).
 
-### CORS
-
-Cross-Origin Resource Sharing (CORS) is a protocol that enables scripts running
-on a browser client to interact with resources from a different origin. This is
-useful because, thanks to the same-origin policy followed ```fetch```,
-JavaScript can only make calls to URLs that live on the same origin as the
-location where the script is running. For example, if a JavaScript app wishes
-to make an AJAX call to an API running on a different domain, it would be
-blocked from doing so thanks to the same-origin policy.
-
 ### Fetch API in action
 
 The simplest use of ```fetch()``` takes one argument - the path to the resource
@@ -75,10 +65,15 @@ async function getMovies() {
 getMovies();
 ```
 
-### Endpoints
+### CORS
 
-- GitHub: https&#8203;://raw.githubusercontent.com/[profile]/[repo]/[branch]/[file]
-- GitLab: https&#8203;://gitlab.com/api/v4/projects/[repo_id]/repository/files/[file%2Eextension]/raw
+Cross-Origin Resource Sharing (CORS) is a protocol that enables scripts running
+on a browser client to interact with resources from a different origin. This is
+useful because, thanks to the same-origin policy followed ```fetch```,
+JavaScript can only make calls to URLs that live on the same origin as the
+location where the script is running. For example, if a JavaScript app wishes
+to make an AJAX call to an API running on a different domain, it would be
+blocked from doing so thanks to the same-origin policy.
 
 ### References
 

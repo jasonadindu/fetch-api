@@ -1,3 +1,6 @@
+// GitHub endpoint
+// https://raw.githubusercontent.com/[profile]/[repo]/[branch]/[file]
+
 const url = 'https://raw.githubusercontent.com/mrspecht/fetch-api/main/movies.json';
 
 const options = {
