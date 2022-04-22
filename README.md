@@ -1,4 +1,4 @@
-## Requesting remote data with Fetch
+## Fetch API
 
 The Fetch API provides a generic definition of ```Request``` and ```Response```
 objects (and other things involved with network requests). It also defines
