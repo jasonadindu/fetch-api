@@ -1,7 +1,5 @@
 ## Requesting remote data with Fetch
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
 The Fetch API provides a generic definition of ```Request``` and ```Response```
 objects (and other things involved with network requests). It also defines
 related concepts such as CORS and the HTTP Origin header semantics, supplanting
@@ -14,7 +12,7 @@ and its resulting value.
 The magic of ```async``` functions is that we can write asynchronous code that
 looks like synchronous code. It's still asynchronous code but instead of
 results and errors landing inside callback functions, errors are thrown
-naturally as exceptions and results naturally land on the next line of code. 
+naturally as exceptions and results naturally land on the next line of code.
 
 The key features of ```async``` functions are:
 
