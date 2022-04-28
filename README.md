@@ -39,13 +39,10 @@ to extract the JSON body content from the ```Response``` object, we use the
 result of parsing the response body text as JSON.
 
 ```javascript
-const url = 'https://raw.githubusercontent.com/mrspecht/fetch-api/main/movies.json';
+const url = 'https://movies.andrespecht.dev';
 
 const options = {
   method: 'GET',
-  headers: {
-    Accept: 'application/vnd.github.v3+json'
-  },
   mode: 'cors'
 };
 
@@ -55,7 +52,9 @@ async function getMovies() {
     if (!response.ok) {
       throw new Error(`${response.statusText} (${response.status})`);
     }
+    // Parsing the reponse as JSON
     const data = await response.json();
+    // Printing the movies
     console.table(data.results);
   } catch(error) {
     console.log(error);
