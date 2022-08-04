@@ -39,7 +39,7 @@ to extract the JSON body content from the ```Response``` object, we use the
 result of parsing the response body text as JSON.
 
 ```javascript
-const url = 'https://movies.andrespecht.dev';
+const url = 'https://api.andrespecht.dev/movies';
 
 const options = {
   method: 'GET',
